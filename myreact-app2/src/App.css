@@ -1,0 +1,20 @@
+.App {
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.blackbar{
+  background-color: black;
+  width: 100%;
+  color: white;
+  padding: 5px;
+  display: flex;
+}
+
+/* 이미지 읽기용 */
+.img_bg{
+  display: inline-block; /* span을 block처럼 동작하도록 설정 */
+  width: 800px;
+  height: 400px;
+  background-image: url('./pic3.png');
+}
