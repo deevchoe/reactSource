@@ -42,7 +42,7 @@ function App() {
         <label htmlFor="todo">뭐 할건데?</label>
         <input id="todo" onChange={handleChange} value={text} />
         &nbsp;&nbsp;
-        <button>클릭 #{items.length + 1}</button> {/* length는 0부터 출발하니까 + 1 */}
+        <button>클릭 #{items.length}</button> {/* length는 0부터 출발해 */}
       </form>
     </div>
   );
